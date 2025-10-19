@@ -1,100 +1,44 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <title>So Sánh Ô Tô Xăng và Ô Tô Điện</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f0f0f0;
-        }
-        h1 {
-            color: #2c3e50;
-            text-align: center;
-        }
-        .images {
-            display: flex;
-            justify-content: space-around;
-            margin-bottom: 20px;
-        }
-        .images img {
-            width: 45%;
-            height: auto;
-            border: 2px solid #ccc;
-            border-radius: 8px;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            background-color: #fff;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 12px;
-            text-align: center;
-        }
-        th {
-            background-color: #3498db;
-            color: white;
-        }
-        tr:nth-child(even) {
-            background-color: #f9f9f9;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang Web Mẫu</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>So Sánh Ô Tô Chạy Bằng Xăng và Ô Tô Chạy Bằng Điện</h1>
+  <a href="#main-content" class="skip-link">Bỏ qua đến nội dung chính</a>
 
-    <div class="images">
-        <div>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Honda_Civic_Facelift_2020.jpg" alt="Ô tô chạy xăng">
-            <p style="text-align:center;">Ô tô chạy bằng xăng</p>
-        </div>
-        <div>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Tesla_Model_3_parked%2C_front_driver_side.jpg" alt="Ô tô chạy điện">
-            <p style="text-align:center;">Ô tô chạy bằng điện</p>
-        </div>
-    </div>
+  <nav>
+    <ul class="nav-menu">
+      <li><a href="#">Trang chủ</a></li>
+      <li><a href="#">Giới thiệu</a></li>
+      <li><a href="#">Dịch vụ</a></li>
+      <li><a href="#">Liên hệ</a></li>
+    </ul>
+  </nav>
 
-    <table>
-        <tr>
-            <th>Tiêu chí</th>
-            <th>Ô tô chạy xăng</th>
-            <th>Ô tô chạy điện</th>
-        </tr>
-        <tr>
-            <td>Nhiên liệu</td>
-            <td>Xăng/dầu</td>
-            <td>Điện năng</td>
-        </tr>
-        <tr>
-            <td>Chi phí sử dụng</td>
-            <td>Cao hơn</td>
-            <td>Tiết kiệm hơn</td>
-        </tr>
-        <tr>
-            <td>Khí thải</td>
-            <td>CO₂ và khí độc hại</td>
-            <td>Không phát thải</td>
-        </tr>
-        <tr>
-            <td>Bảo dưỡng</td>
-            <td>Phức tạp hơn</td>
-            <td>Đơn giản hơn</td>
-        </tr>
-        <tr>
-            <td>Thời gian tiếp nhiên liệu/sạc</td>
-            <td>Nhanh</td>
-            <td>Lâu hơn</td>
-        </tr>
-        <tr>
-            <td>Tác động môi trường</td>
-            <td>Lớn hơn</td>
-            <td>Ít hơn</td>
-        </tr>
-    </table>
+  <div class="grid-container">
+    <aside class="sidebar">
+      <h2>Thanh bên</h2>
+      <p>Nội dung phụ hoặc thông tin thêm.</p>
+    </aside>
+
+    <main id="main-content" class="main-content">
+      <h1>Chào mừng đến với trang web</h1>
+      <p>Đây là nội dung chính của trang.</p>
+      <div class="flex-box">
+        <div class="box">Khối 1</div>
+        <div class="box">Khối 2</div>
+        <div class="box">Khối 3</div>
+      </div>
+    </main>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Trang web của bạn.</p>
+  </footer>
 
 </body>
 </html>
