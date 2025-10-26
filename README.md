@@ -2,43 +2,40 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trang Web Mẫu</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Image Preview</title>
+  <style>
+    #image {
+      background-image: url("");
+      background-size: cover;
+      height: 300px;
+      width: 500px;
+      border: 2px solid #ccc;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      color: #333;
+    }
+    .preview {
+      width: 100px;
+      margin: 5px;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
 
-  <a href="#main-content" class="skip-link">Bỏ qua đến nội dung chính</a>
-
-  <nav>
-    <ul class="nav-menu">
-      <li><a href="#">Trang chủ</a></li>
-      <li><a href="#">Giới thiệu</a></li>
-      <li><a href="#">Dịch vụ</a></li>
-      <li><a href="#">Liên hệ</a></li>
-    </ul>
-  </nav>
-
-  <div class="grid-container">
-    <aside class="sidebar">
-      <h2>Thanh bên</h2>
-      <p>Nội dung phụ hoặc thông tin thêm.</p>
-    </aside>
-
-    <main id="main-content" class="main-content">
-      <h1>Chào mừng đến với trang web</h1>
-      <p>Đây là nội dung chính của trang.</p>
-      <div class="flex-box">
-        <div class="box">Khối 1</div>
-        <div class="box">Khối 2</div>
-        <div class="box">Khối 3</div>
-      </div>
-    </main>
+  <div id="image">
+    Di chuột qua một hình ảnh bên dưới để hiển thị ở đây.
   </div>
 
-  <footer>
-    <p>&copy; 2025 Trang web của bạn.</p>
-  </footer>
+  <img class="preview" alt="Ảnh 1" src="https://hoanghamobile.com/tin-tuc/wp-content/uploads/2024/04/anh-cuoi-34.jpg" 
+       onmouseover="update(this)" onmouseout="unDo()">
+  <img class="preview" alt="Ảnh 2" src="https://image.dienthoaivui.com.vn/x,webp,q90/https://dashboard.dienthoaivui.com.vn/uploads/dashboard/editor_upload/anh-meme-7.jpg"
+       onmouseover="update(this)" onmouseout="unDo()">
+  <img class="preview" alt="Ảnh 3" src="https://jbagy.me/wp-content/uploads/2025/04/Hinh-meme-meo-cuoi-deu-1.jpg" 
+       onmouseover="update(this)" onmouseout="unDo()">
 
+  <script src="script.js"></script>
 </body>
 </html>
