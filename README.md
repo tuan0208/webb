@@ -1,41 +1,27 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8">
-  <title>Image Preview</title>
-  <style>
-    #image {
-      background-image: url("");
-      background-size: cover;
-      height: 300px;
-      width: 500px;
-      border: 2px solid #ccc;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 18px;
-      color: #333;
-    }
-    .preview {
-      width: 100px;
-      margin: 5px;
-      cursor: pointer;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thư viện ảnh tương tác</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-
-  <div id="image">
-    Di chuột qua một hình ảnh bên dưới để hiển thị ở đây.
-  </div>
-
-  <img class="preview" alt="Ảnh 1" src="https://hoanghamobile.com/tin-tuc/wp-content/uploads/2024/04/anh-cuoi-34.jpg" 
-       onmouseover="update(this)" onmouseout="unDo()">
-  <img class="preview" alt="Ảnh 2" src="https://image.dienthoaivui.com.vn/x,webp,q90/https://dashboard.dienthoaivui.com.vn/uploads/dashboard/editor_upload/anh-meme-7.jpg"
-       onmouseover="update(this)" onmouseout="unDo()">
-  <img class="preview" alt="Ảnh 3" src="https://jbagy.me/wp-content/uploads/2025/04/Hinh-meme-meo-cuoi-deu-1.jpg" 
-       onmouseover="update(this)" onmouseout="unDo()">
-
-  <script src="script.js"></script>
+  <h1>Thư viện ảnh của tôi</h1>
+  <section id="gallery">
+    <figure>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRqm0U3fUwxB1ZPX1udrS6E0rsXmTFbhOs8A&s" alt="Khi suy nghi" />
+      <figcaption>Bình minh trên biển</figcaption>
+    </figure>
+    <figure>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXElAF0z6nV0Kdbbd-V4klk8shJVF9q36LQw&s" alt="Khi tim ra dap an" />
+      <figcaption>Xin loi</figcaption>
+    </figure>
+    <figure>
+      <img src="https://auvi.edu.vn/wp-content/uploads/2025/02/meme-meo-7.jpg" alt="Meo xin loi" />
+      <figcaption>Thành phố ánh sáng</figcaption>
+    </figure>
+  </section>
 </body>
 </html>
