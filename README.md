@@ -12,7 +12,7 @@
   <section id="gallery">
     <figure>
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRqm0U3fUwxB1ZPX1udrS6E0rsXmTFbhOs8A&s" alt="Khi suy nghi" />
-      <figcaption>Bình minh trên biển</figcaption>
+      <figcaption>meomeo</figcaption>
     </figure>
     <figure>
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXElAF0z6nV0Kdbbd-V4klk8shJVF9q36LQw&s" alt="Khi tim ra dap an" />
