@@ -16,11 +16,11 @@
     </figure>
     <figure>
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXElAF0z6nV0Kdbbd-V4klk8shJVF9q36LQw&s" alt="Khi tim ra dap an" />
-      <figcaption>Xin loi</figcaption>
+      <figcaption>gaugau</figcaption>
     </figure>
     <figure>
       <img src="https://auvi.edu.vn/wp-content/uploads/2025/02/meme-meo-7.jpg" alt="Meo xin loi" />
-      <figcaption>Thành phố ánh sáng</figcaption>
+      <figcaption>van xin</figcaption>
     </figure>
   </section>
 </body>
